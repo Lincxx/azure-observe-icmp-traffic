@@ -14,3 +14,19 @@ In this lab we are going to connect to the VMs we create in the previous labs. W
 7. From The Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark
 
 ---
+
+**First we are going to lookup the VMs we create, by searching for them**
+
+![step1](https://github.com/user-attachments/assets/dcd64425-8127-429a-9924-6829975a1d1b)
+
+**Next, we are going to select our Windows VM. We need to get the private IP Adress for it so we can connect to it via a remote desktop application**
+
+![step2](https://github.com/user-attachments/assets/ff06921f-1898-4f2a-bf6c-eec332ad2049)
+
+![step3](https://github.com/user-attachments/assets/e7979cb5-e7f9-4d45-882f-ee20ab66b7b8)
+
+**I use Linux, so I'm going to use an application called Remmina. Windows has a built-in one, and for Apple you can download Windows App (formerly called remote desktop)**
+**After you **
+
+
+
