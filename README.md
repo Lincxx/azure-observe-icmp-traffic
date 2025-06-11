@@ -75,7 +75,9 @@ In this lab we are going to connect to the VMs we create in the previous labs. W
 
 ![step16](https://github.com/user-attachments/assets/04a31d74-bd7e-4030-bb8d-0ed11d037bd9)
 
-****
+**Now go to Azure and delete the rule we created and finally go back to the Windows VM and you'll see the traffic flowing again**
 
 ![step17](https://github.com/user-attachments/assets/dbf2cdc0-c9c7-455b-887c-aedacaa38a59)
+
+**Final step delete all resource groups that way we don't lose a lot of money ;)**
 
