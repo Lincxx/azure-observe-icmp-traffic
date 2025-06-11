@@ -26,7 +26,14 @@ In this lab we are going to connect to the VMs we create in the previous labs. W
 ![step3](https://github.com/user-attachments/assets/e7979cb5-e7f9-4d45-882f-ee20ab66b7b8)
 
 **I use Linux, so I'm going to use an application called Remmina. Windows has a built-in one, and for Apple you can download Windows App (formerly called remote desktop)**
-**After you **
+**After you enter in the IP Adress and credentials to access your VM, it should look something like this**
+
+![step4](https://github.com/user-attachments/assets/62719c9f-ddd3-41c4-8174-cc44b0fa60e3)
+
+**Go ahead and open up the Edge browser and download Wireshark. Once its downloaded, go ahead and proceed and intstall it**
+
+
+
 
 
 
