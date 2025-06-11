@@ -13,3 +13,4 @@ In this lab we are going to connect to the VMs we create in the previous labs. W
    - Observe ping requests and replies within WireShark
 7. From The Windows 10 VM, open command line or PowerShell and attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark
 
+---
