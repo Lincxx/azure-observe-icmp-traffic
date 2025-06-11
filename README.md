@@ -62,6 +62,10 @@ In this lab we are going to connect to the VMs we create in the previous labs. W
 
 <img width="948" alt="Screenshot 2025-06-11 at 2 53 31 PM" src="https://github.com/user-attachments/assets/f7c00b4d-6ff6-4c86-b0d6-a10cb80e5e16" />
 
+**Click on settings on the left hand side, from there on the inbound sercurity rule**
+
+![step14](https://github.com/user-attachments/assets/ccc50c52-ffdf-4702-af7a-a4d633d55866)
+
 
 
 
