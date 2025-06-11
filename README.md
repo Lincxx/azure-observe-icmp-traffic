@@ -31,10 +31,27 @@ In this lab we are going to connect to the VMs we create in the previous labs. W
 ![step4](https://github.com/user-attachments/assets/62719c9f-ddd3-41c4-8174-cc44b0fa60e3)
 
 **Go ahead and open up the Edge browser and download Wireshark. Once it's downloaded, go ahead and proceed and install it**
-**After you install, go ahead and open Wireshark and then select the enternet and click on the blue fin.**
+**After you install, go ahead and open Wireshark and then select the ethernet and click on the blue fin.**
+
+![step6](https://github.com/user-attachments/assets/17227151-2700-4f5e-9faf-b7eaec748289)
+
+**In the search bar of the Wireshark go ahead and enter in ICMP and press enter. The ping command uses the ICMP**
+
+![step7](https://github.com/user-attachments/assets/764e09b3-b427-443b-80fd-36c2b14c6693)
+
+**From, here we need to go back to Azure and get the private IP Address for the Linux. Just preform the steps we did to get the Windows VM IP Address**
+
+![step8](https://github.com/user-attachments/assets/c7e73f0a-4f40-4747-93f5-677a2baaacb5)
+
+**Now that we have it, open up a command window in the Windows VM and type in the following 'ping 10.0.0.x' where x is the correct number and do not include the single quote**
+**As you can see we are capturing the ICMP traffic**
+![step10](https://github.com/user-attachments/assets/ae109dfa-573f-4213-b7b0-b83d143f2b59)
 
 
+**Let's know take a closer look at the packets and see if we recognize anything**
+**We do, we see some data layer information - MAC Addresses.**
 
+![step11](https://github.com/user-attachments/assets/4983a551-85b1-44b5-b603-6506a1d47361)
 
 
 
