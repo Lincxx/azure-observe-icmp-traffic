@@ -57,6 +57,12 @@ In this lab we are going to connect to the VMs we create in the previous labs. W
 **Go back to Azure and to the Linux VM. We are going to startup a rule in the firewall**
 
 ![step12](https://github.com/user-attachments/assets/a759a353-0ba3-49cf-9998-41505cf2955f)
+
+**Click on Network setting, then click Network secuirty group**
+
 <img width="948" alt="Screenshot 2025-06-11 at 2 53 31 PM" src="https://github.com/user-attachments/assets/f7c00b4d-6ff6-4c86-b0d6-a10cb80e5e16" />
+
+
+
 
 
