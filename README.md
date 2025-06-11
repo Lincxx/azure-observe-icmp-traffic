@@ -43,7 +43,7 @@ In this lab we are going to connect to the VMs we create in the previous labs. W
 
 ![step8](https://github.com/user-attachments/assets/c7e73f0a-4f40-4747-93f5-677a2baaacb5)
 
-**Now that we have it, open up a command window in the Windows VM and type in the following 'ping 10.0.0.x' where x is the correct number and do not include the single quote**
+**Now that we have it, open up a command window in the Windows VM and type in the following 'ping 10.0.0.x -t' where x is the correct number and do not include the single quote**
 **As you can see we are capturing the ICMP traffic**
 ![step10](https://github.com/user-attachments/assets/ae109dfa-573f-4213-b7b0-b83d143f2b59)
 
@@ -54,19 +54,28 @@ In this lab we are going to connect to the VMs we create in the previous labs. W
 ![step11](https://github.com/user-attachments/assets/4983a551-85b1-44b5-b603-6506a1d47361)
 
 **Ok, now we are going to block any requests from happening that use the ping command (ICMP)**
-**Go back to Azure and to the Linux VM. We are going to startup a rule in the firewall**
+**Go back to Azure and to the Linux VM. We are going to start a rule in the firewall**
 
 ![step12](https://github.com/user-attachments/assets/a759a353-0ba3-49cf-9998-41505cf2955f)
 
-**Click on Network setting, then click Network secuirty group**
+**Click on Network settings, then click Network security group**
 
 <img width="948" alt="Screenshot 2025-06-11 at 2 53 31 PM" src="https://github.com/user-attachments/assets/f7c00b4d-6ff6-4c86-b0d6-a10cb80e5e16" />
 
-**Click on settings on the left hand side, from there on the inbound sercurity rule**
+**Click on settings on the left-hand side, from there on the inbound security rule. Finally, click on the add**
 
 ![step14](https://github.com/user-attachments/assets/ccc50c52-ffdf-4702-af7a-a4d633d55866)
 
+**We are going to change the destination port to a wildcard '*', for the protocol select the ICMPv4, that's what ping uses**
+**For the action, select the deny, and the priority will be set to 290. This will make it top of the list**
 
+![step15](https://github.com/user-attachments/assets/3886ed57-9141-4bb9-89ff-9cbecfe9516a)
 
+**Go back to the Windows VM and you'll see that the ping is now timing out**
 
+![step16](https://github.com/user-attachments/assets/04a31d74-bd7e-4030-bb8d-0ed11d037bd9)
+
+****
+
+![step17](https://github.com/user-attachments/assets/dbf2cdc0-c9c7-455b-887c-aedacaa38a59)
 
