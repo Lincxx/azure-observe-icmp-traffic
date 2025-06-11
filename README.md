@@ -19,7 +19,7 @@ In this lab we are going to connect to the VMs we create in the previous labs. W
 
 ![step1](https://github.com/user-attachments/assets/dcd64425-8127-429a-9924-6829975a1d1b)
 
-**Next, we are going to select our Windows VM. We need to get the private IP Adress for it so we can connect to it via a remote desktop application**
+**Next, we are going to select our Windows VM. We need to get the private IP Address for it so we can connect to it via a remote desktop application**
 
 ![step2](https://github.com/user-attachments/assets/ff06921f-1898-4f2a-bf6c-eec332ad2049)
 
@@ -30,7 +30,8 @@ In this lab we are going to connect to the VMs we create in the previous labs. W
 
 ![step4](https://github.com/user-attachments/assets/62719c9f-ddd3-41c4-8174-cc44b0fa60e3)
 
-**Go ahead and open up the Edge browser and download Wireshark. Once its downloaded, go ahead and proceed and intstall it**
+**Go ahead and open up the Edge browser and download Wireshark. Once it's downloaded, go ahead and proceed and install it**
+**After you install, go ahead and open Wireshark and then select the enternet and click on the blue fin.**
 
 
 
